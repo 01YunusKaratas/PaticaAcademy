@@ -1,2 +1,2 @@
 # PaticaAcademy
-Insertion sort proje
+JAVA COURSE 
