@@ -1,0 +1,2 @@
+# PaticaAcademy
+Insertion sort proje
