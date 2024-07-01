@@ -10,9 +10,10 @@ public class PowerOfTwo {
         num = sc.nextInt();
 
         for (int i = 0, j = 0; (i < num && j < num);) {
+            System.out.println("i: " + i + ", j: " + j);
             i *= 4;
             j *= 5;
-            System.out.println("i: " + i + ", j: " + j);
+            
         }
 
         sc.close();
