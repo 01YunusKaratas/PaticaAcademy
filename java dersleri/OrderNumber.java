@@ -15,7 +15,7 @@ public class OrderNumber {
             System.out.println("Enter the number:");
             int value = input.nextInt();
             numbers[i] = value; // Değeri doğrudan atama
-            System.out.println((i + 1) + " value added to the array.");
+            System.out.println((i + 1) + " value added to the array :" + value);
         }
 
         // En büyük ve en küçük değeri bulma
