@@ -1,0 +1,13 @@
+Flight and Pilot Management System
+Bu proje, hava yolu şirketlerinin uçuş ve pilot yönetimini sağlayan bir sistem tasarımını içermektedir. Aşağıda proje detayları ve kullanım bilgileri bulunmaktadır.
+
+Proje Açıklaması
+Bu proje, hava yolu şirketlerinin günlük operasyonlarını yönetmelerine yardımcı olmak için tasarlanmıştır. Sistem, hava yolu şirketlerinin uçuş planlaması, pilot atamaları, uçak bakım durumları gibi temel işlevleri desteklemektedir.
+
+Özellikler
+Hava yolu şirketlerinin kimlikleri ve uçak tiplerine sahip olmaları.
+Uçakların çalışır veya onarım durumunda olmaları.
+Her uçuşun benzersiz kimlikleri, kalkış ve varış havaalanları, kalkış ve varış saatleri.
+Her uçuşun bir pilot ve bir yardımcı pilotu olması.
+Havaalanlarının benzersiz kimlikleri ve isimleri.
+Hava yolu şirketlerinin pilotları ve her pilotun deneyim seviyeleri.
