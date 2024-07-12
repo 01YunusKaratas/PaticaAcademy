@@ -1,0 +1,26 @@
+Kodluyoruz Sigorta Şirketi Asansör Simülasyonu
+Bu proje, Kodluyoruz Sigorta Şirketi için bir ofis binası asansör simülasyonunu içermektedir.
+Proje, binanın 12 katına çıkabilen beş asansörün trafik akışını modellemektedir.
+Asansörler, modern teknoloji ile donatılmış olup enerji tasarruflu ve gerektiğinde hareket eden özelliklere sahiptir.
+
+Sistem Özellikleri
+Building (Bina): Binayı temsil eden sınıf. Kat sayısı ve asansörlerin listesi gibi özelliklere sahiptir. Asansörlerin yönetimi ve işletimi bu sınıf üzerinden sağlanır.
+
+Elevator (Asansör): Her bir asansörün bulunduğu kat, hareket yönü, kapı durumu, yolcular ve hedef katlar gibi özelliklere sahiptir. Asansörlerin hareketi, kapı açma/kapama gibi işlevleri bu sınıf içinde gerçekleştirilir.
+
+Passenger (Yolcu): Binadaki her bir yolcunun başlangıç ve hedef katları belirleyen sınıf. Yolcular, çağrı düğmelerine basarak asansör çağırabilir ve hedef katlarını belirleyebilirler.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Kodluyoruz Insurance Company Elevator Simulation
+
+This project simulates an elevator system for Kodluyoruz Insurance Company's office building.
+The project models the traffic flow of five elevators capable of serving a 12-floor building.
+The elevators are equipped with modern technology, designed to be energy-efficient and operate only when necessary.
+
+System Features
+Building: Represents the structure of the building. It includes properties such as the number of floors and a list of elevators. Management and operation of the elevators are handled through this class.
+
+Elevator: Represents each elevator's attributes such as current floor, direction of movement, door status, passengers, and target floors. It manages functions like moving between floors and opening/closing doors.
+
+Passenger: Represents individuals within the building who can call elevators and set their destination floors. Passengers interact with the elevator system by pressing call buttons and selecting their desired floors.
