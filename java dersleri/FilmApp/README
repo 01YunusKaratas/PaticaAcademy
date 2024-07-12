@@ -1,0 +1,56 @@
+Online Movie Rental and Sales System
+Overview
+This system provides users with an online platform to rent and purchase movies. It is designed to facilitate movie rental and purchase transactions, allowing users to choose from different subscription plans and genres of films.
+
+System Functionality
+The core functionalities of the system include:
+
+Film Listing: Users can search and sort movies based on various criteria such as title, genre, year, and rating.
+
+Subscription: Users can subscribe to different plans offering varying amounts of credits.
+
+Credit Purchase: In addition to subscription plans, users can purchase credits.
+
+Movie Rental: Subscribers can rent movies using their credits. Rented movies are automatically returned when the rental period ends.
+
+Movie Purchase: Both subscribers and regular users can purchase movies. Purchased movies are stored in a library for users to watch at any time.
+
+Movie Request: Users can request movies that are not currently available.
+
+Class Diagram
+The system's class diagram is as follows:
+
+[Insert your class diagram image here]
+
+Classes:
+Film: Represents a movie with attributes such as title, genre, year, price, and description.
+
+User: Represents a user with attributes including name, surname, ID number, and money.
+
+SubscriberUser: Extends the User class and includes additional attributes such as credit amount.
+
+Credit: Represents the credits owned by a user.
+
+MovieApplication: The main class that provides the system's functionalities.
+
+Methods:
+fetchFilm(): Returns a list of all available films.
+
+showList(): Displays available films to the user.
+
+getUser(): Retrieves user information as a list.
+
+getRemainingMoney(): Returns the remaining money of the user.
+
+takeFilm(): Provides options for renting or purchasing a film.
+
+takeCredit(): Provides options for purchasing credits.
+
+requestFilm(): Allows the user to request a film that is not currently available.
+
+MovieRental(int creditAmount): Processes the movie rental transaction using the user's credits.
+
+Assignment Compatibility
+This system meets all the requirements specified in the assignment.
+It is designed to facilitate movie rental and purchase transactions, allowing users to choose from different subscription plans and genres of films.
+The system also supports credit purchases, movie requests, and searching/sorting of available films.
