@@ -8,7 +8,6 @@ customer tablosunda bulunan first_name sütunundaki değeri 'Mary' olan müşter
 film tablosundaki uzunluğu(length) 50 ten büyük OLMAYIP aynı zamanda rental_rate değeri 2.99 veya 4.99 OLMAYAN verileri sıralayınız.
 
 
-
 --QUERY 1
 	--SELECT title , description
 	--FROM film;
