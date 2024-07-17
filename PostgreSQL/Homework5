@@ -1,0 +1,38 @@
+Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden gerçekleştiriniz.
+
+--> DVRENTAL URL : https://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip
+
+
+->film tablosunda bulunan ve film ismi (title) 'n' karakteri ile biten en uzun (length) 5 filmi sıralayınız.
+->film tablosunda bulunan ve film ismi (title) 'n' karakteri ile biten en kısa (length) ikinci(6,7,8,9,10) 5 filmi(6,7,8,9,10) sıralayınız.
+->customer tablosunda bulunan last_name sütununa göre azalan yapılan sıralamada store_id 1 olmak koşuluyla ilk 4 veriyi sıralayınız.
+
+
+
+
+--QUERY1
+	--SELECT *
+	--FROM film
+	--WHERE title LIKE '%n'
+	--ORDER BY length desc
+	--LIMIT 5;
+
+--QUERY2
+	--SELECT *
+	--FROM film
+	--WHERE title LIKE '%n'
+	--ORDER BY length ASC
+	--OFFSET 5
+	--LIMIT 5;
+
+--QUERY3
+SELECT last_name
+FROM customer
+WHERE store_id =1
+ORDER BY last_name ASC --If you wanna write ,you can write ;reverse think ,you can not write
+LIMIT 4;
+
+
+
+
+
