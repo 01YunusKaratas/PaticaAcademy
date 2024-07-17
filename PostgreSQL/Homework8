@@ -1,0 +1,86 @@
+
+# Employee Tablo Oluşturma ve Veri Yönetimi
+
+Bu proje, PostgreSQL'de `employee` isimli bir tablo oluşturma, Mockaroo servisini kullanarak 50 adet veri ekleme, bu veriler üzerinde `UPDATE` ve `DELETE` işlemleri yapma adımlarını içermektedir.
+
+## Adımlar
+
+##SORULAR
+1-> test veritabanınızda employee isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100) olan bir tablo oluşturalım.
+2-> Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
+3-> Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
+4-> Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
+
+### 1. Tablonun Oluşturulması
+
+İlk olarak, `employee` isimli tabloyu oluşturuyoruz. Bu tabloda dört sütun bulunmaktadır: `id`, `name`, `birthday` ve `email`.
+
+```sql
+CREATE TABLE employee (
+    id INTEGER PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    birthday DATE,
+    email VARCHAR(100)
+);
+
+2. Mockaroo Servisini Kullanarak Veri Ekleme
+Mockaroo servisini kullanarak employee tablosuna 50 adet veri ekledik. İşte bazı örnek veriler:
+
+INSERT INTO employee (id, name, birthday, email) VALUES (1, 'Frédérique', '2013-03-01', 'dfrancello0@yolasite.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (2, 'Lóng', '2020-05-12', 'sskurm1@hubpages.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (3, 'Marie-ève', '2017-04-20', 'cbaden2@oaic.gov.au');
+INSERT INTO employee (id, name, birthday, email) VALUES (4, 'Mélia', '1992-03-08', 'mnewtown3@cyberchimps.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (5, 'Gaëlle', '2014-04-06', 'ggrichukhin4@mtv.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (6, 'Loïc', '2004-02-23', 'madame5@globo.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (7, 'Dorothée', '2022-04-25', 'stwede6@ihg.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (8, 'Nuó', '2012-09-27', 'bcamosso7@google.de');
+INSERT INTO employee (id, name, birthday, email) VALUES (9, 'Pélagie', '2002-01-09', 'zmatis8@netlog.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (10, 'Cunégonde', '2023-11-02', 'gpittford9@ucla.edu');
+-- (Devam eden 40 satır)
+
+
+
+3. UPDATE İşlemleri
+Aşağıda, belirli sütunlara göre diğer sütunları güncelleyen 5 adet UPDATE işlemi örnek olarak verilmiştir:
+UPDATE employee
+SET name = 'AYŞE',
+    birthday = '2000-07-11',
+    email = 'ayşekaratas589@gmail.com'
+WHERE name = 'Frédérique';
+
+UPDATE employee
+SET email = 'long.new@example.com'
+WHERE id = 2;
+
+UPDATE employee
+SET birthday = '1995-06-10'
+WHERE name = 'Adélie';
+
+UPDATE employee
+SET name = 'John Doe'
+WHERE email = 'cbaden2@oaic.gov.au';
+
+UPDATE employee
+SET email = 'updated_email@example.com'
+WHERE id = 5;
+
+
+4. DELETE İşlemleri
+Aşağıda, belirli sütunlara göre ilgili satırı silecek 5 adet DELETE işlemi örnek olarak verilmiştir:
+
+DELETE FROM employee
+WHERE id = 11;
+
+DELETE FROM employee
+WHERE name = 'Lóng';
+
+DELETE FROM employee
+WHERE birthday = '2014-04-06';
+
+DELETE FROM employee
+WHERE email = 'mnewtown3@cyberchimps.com';
+
+DELETE FROM employee
+WHERE id = 15;
+
+
