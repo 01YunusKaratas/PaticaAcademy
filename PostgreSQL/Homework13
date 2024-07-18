@@ -1,0 +1,59 @@
+Bu çalışmamamızda şimdiye kadar üzerine konuştuğumuz tüm konuları 5 farklı senaryo üzerinden tekrar etmeye çalıştık. Aşağıda ilgili senaryoları bulabilirsiniz.
+
+
+
+film tablosundan 'K' karakteri ile başlayan en uzun ve replacenet_cost u en düşük 4 filmi sıralayınız.
+film tablosunda içerisinden en fazla sayıda film bulunduran rating kategorisi hangisidir?
+cutomer tablosunda en çok alışveriş yapan müşterinin adı nedir?
+category tablosundan kategori isimlerini ve kategori başına düşen film sayılarını sıralayınız.
+
+
+
+--QUERY1
+(SELECT *
+FROM film
+WHERE title LIKE 'K%'
+ORDER BY length DESC
+LIMIT 1 
+)
+UNION ALL
+
+(SELECT *
+FROM film
+ORDER BY replacement_cost ASC
+LIMIT 4);
+
+
+
+--QUERY2
+SELECT rating ,COUNT(*) AS film_count
+FROM film
+GROUP BY rating
+ORDER BY film_count DESC
+LIMIT 1;
+
+--QUERY3
+
+SELECT customer.first_name ,customer.last_name
+FROM customer 
+INNER JOIN  payment 
+ON customer.customer_id = payment.customer_id
+WHERE payment.amount IN (SELECT  MAX(amount) 
+						FROM payment);
+
+--QUERY4
+select category.category_id,category.name, COUNT(film_category.film_id) AS film_count
+FROM category
+INNER JOIN film_category
+ON film_category.category_id = category.category_id
+GROUP BY category.category_id, category.name
+ORDER BY category.category_id;
+						
+
+
+
+
+
+
+
+
