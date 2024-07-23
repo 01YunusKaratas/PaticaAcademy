@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="author" content="YUNUS EMRE KARATAS">
+
+    <style>
+        #container{
+            margin: 0px;
+            padding: 0px;
+            
+            
+
+        }
+        #nav-bar{
+           
+            display: flex;
+            justify-self: center;
+            align-self:center;
+            margin-top: 0px;
+           
+        }
+        img{
+            display: block;
+            margin: 0 auto;
+            height: 250px;
+            width: 500px;
+            margin-top: 10px;
+        }
+        #select{
+            border: 2px solid #EEEEEE;
+            display: flex;
+            justify-self: center;
+            align-self: center;
+            margin-top: 0px;
+            background-color: #eeeeee9e;
+        }
+        #section{
+            margin: auto;
+            flex-direction: column;
+            
+           
+        }
+        #section>p{
+            margin: 0px;
+        }
+        #section>label{
+            border: 2px solid black;
+            display: block;
+            background-color: #FFFFFF;
+            height: 15px;
+        }
+
+        #footer{
+
+            display: flex;
+            justify-self: center;
+            align-items: center;
+           
+        }
+        .f-1{
+            border: 2px solid black;
+            width: 502px;
+            height: 100px;
+            text-align: center;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+            background-color: rgb(98, 179, 170);
+            border: 2px solid rgb(98, 179, 170);
+
+        }
+        #footer3>p{
+            margin: 0px;
+            
+        }
+        #footer3>label{
+            border: 2px solid gray;
+            display: block;
+            background-color: #FFFFFF;
+            height: 15px;
+            width: 150px;
+        }
+
+        
+       
+      
+
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <div id="nav-bar">
+            <img src="data:image/jpeg;base64,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" alt="GoogleBeta">
+
+        </div>
+        <div id="select">
+           <div id="section">
+            <p>Search the web using Google!</p>
+            <label for="search"></label>
+
+            <button>Google Search</button>
+            <button>I'm feeling lucky</button>
+           </div>
+
+
+
+        </div>
+        <div id="footer">
+            <div class="f-1" id="footer1">
+                <span>Special Search</span>
+                <a href="#">Standford Search</a>
+                <a href="#">Lınux Search</a>
+            </div>
+            <div class="f-1" id="footer2">
+                <a href="#">Help</a>
+                <a href="#">About Google!</a>
+                <a href="#">Company Info</a>
+                <a href="#">Google Logos!</a>
+            </div>
+            <div class="f-1" id="footer3">
+                <p>Get Google</p>
+                <P>Updates Montly:</P>
+                <label for="email"></label>
+                <div>
+                <button>Subscribe</button>
+                <a href="#">archive</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
