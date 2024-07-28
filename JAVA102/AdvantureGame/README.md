@@ -1,4 +1,4 @@
-Adventure Game
+Adventure Game 
 Adventure Game, Java dilinde geliştirilmiş, rol yapma unsurlarını barındıran bir macera oyunudur. Oyuncular, çeşitli karakterler arasından seçim yaparak savaşlar yapabilir, keşifler gerçekleştirebilir ve stratejik kararlar alarak maceralarını şekillendirebilirler. Oyun, karakter yönetimi, savaş mekanikleri ve lokasyon bazlı etkileşimler sunarak dinamik bir oyun deneyimi sağlar.
 
 İçindekiler
