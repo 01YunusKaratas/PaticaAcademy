@@ -92,4 +92,5 @@ Uygulama çalıştığında, şunları yapabilirsiniz:
 3. **Kayıt Arama**: Arama kutusuna arama kriterlerini girin.
 4. **Kayıt Düzenleme**: Kayıtı seçin ve değişiklik yapmak için "Düzenle" butonuna tıklayın.
 
+![Operator Diagram](https://github.com/01YunusKaratas/PaticaAcademy/blob/main/JAVA102/Patika-Dev/src/com/patikadev/resources/Operator.png)
 
