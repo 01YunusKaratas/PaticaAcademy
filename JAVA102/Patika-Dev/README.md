@@ -2,7 +2,7 @@
 
 ## Description
 
-This project involves the development of a learning editor and student interface similar to Patika.dev. The application supports functionalities such as adding, removing, searching, and editing records. Throughout this project, I gained substantial experience in Java and Swing, particularly in utilizing various new methods and code blocks. The initial phase of the project, known as the "Operator Phase," has been successfully designed and implemented. Additionally, XAMPP was used for database management, and Java JDBC was utilized for database connectivity.
+This project involves the development of a learning editor and student interface similar to Patika.dev. The application supports functionalities such as adding, removing, searching, and editing records. Throughout this project, I gained substantial experience in Java and Swing, particularly in utilizing various new methods and code blocks. The initial phase of the project, known as the "Users Phase," has been successfully designed and implemented. Additionally, XAMPP was used for database management, and Java JDBC was utilized for database connectivity.
 
 ## Features
 
@@ -50,7 +50,7 @@ Once the application is running, you can:
 
 ## Açıklama
 
-Bu proje, Patika.dev benzeri bir öğrenme editörü ve öğrenci arayüzü geliştirmeyi içerir. Uygulama, kayıt ekleme, silme, arama ve düzenleme gibi işlevleri destekler. Bu proje sırasında Java ve Swing konusunda önemli tecrübeler kazandım, özellikle çeşitli yeni yöntemler ve kod bloklarını kullanma konusunda. Projenin ilk aşaması olan "Operatör Aşaması" başarıyla tasarlanmış ve uygulanmıştır. Ayrıca, veritabanı yönetimi için XAMPP kullanılmış ve veritabanı bağlantısı için Java JDBC kullanılmıştır.
+Bu proje, Patika.dev benzeri bir öğrenme editörü ve öğrenci arayüzü geliştirmeyi içerir. Uygulama, kayıt ekleme, silme, arama ve düzenleme gibi işlevleri destekler. Bu proje sırasında Java ve Swing konusunda önemli tecrübeler kazandım, özellikle çeşitli yeni yöntemler ve kod bloklarını kullanma konusunda. Projenin ilk aşaması olan "Kullanıcı Aşaması" başarıyla tasarlanmış ve uygulanmıştır. Ayrıca, veritabanı yönetimi için XAMPP kullanılmış ve veritabanı bağlantısı için Java JDBC kullanılmıştır.
 
 ## Özellikler
 
