@@ -1,46 +1,51 @@
- Orta Seviye Java ile Web Development Patikası - Bitirme Projesi
+# Orta Seviye Java ile Web Development Patikası - Bitirme Projesi
+
 Bu proje, Patika.dev üzerindeki Orta Seviye Java ile Web Development patikasının bitirme projesidir. Proje, Java Swing kullanarak geliştirilmiş bir masaüstü uygulamasını içermektedir. Uygulama, SQL ve NoSQL veritabanları ile entegre edilmiş ve modern yazılım geliştirme becerilerini uygulamak amacıyla tasarlanmıştır.
 
-->İçerik
-Proje Açıklaması: Java Swing ile geliştirilmiş masaüstü uygulaması.
-Veritabanları: SQL ve NoSQL (MongoDB) entegrasyonu.
-Araçlar: XAMPP, Java Swing, Git, GitHub.
-Özellikler
-Swing Arayüzü: Kullanıcı dostu bir masaüstü arayüzü tasarlandı.
-Veritabanı Entegrasyonu: SQL ve MongoDB ile verilerin yönetimi.
-İleri Seviye Git Kullanımı: Versiyon kontrolü ve işbirliği için Git kullanımı.
+## İçerik
 
-->Paketler
-view: Java Swing arayüzleri ve formlar içerir.
-helper: Kod tekrarını önlemek için kullanılan genel metodlar.
-model: Veritabanındaki tablolar için oluşturulan model sınıfları.
-resource: Uygulama için kullanılan PNG resimler ve diğer kaynaklar.
-Kurulum ve Çalıştırma
+- **Proje Açıklaması**: Java Swing ile geliştirilmiş masaüstü uygulaması.
+- **Veritabanları**: SQL ve NoSQL (MongoDB) entegrasyonu.
+- **Araçlar**: XAMPP, Java Swing, Git, GitHub.
 
-->Gereksinimler:
-Java JDK (Java Development Kit)
-XAMPP (veya benzeri bir lokal sunucu)
+## Özellikler
 
-->Projeyi İndirme:
-bash
-Kodu kopyala
+- **Swing Arayüzü**: Kullanıcı dostu bir masaüstü arayüzü tasarlandı.
+- **Veritabanı Entegrasyonu**: SQL ve MongoDB ile verilerin yönetimi.
+- **İleri Seviye Git Kullanımı**: Versiyon kontrolü ve işbirliği için Git kullanımı.
+
+## Paketler
+
+- **`view`**: Java Swing arayüzleri ve formlar içerir.
+- **`helper`**: Kod tekrarını önlemek için kullanılan genel metodlar.
+- **`model`**: Veritabanındaki tablolar için oluşturulan model sınıfları.
+- **`resource`**: Uygulama için kullanılan PNG resimler ve diğer kaynaklar.
+
+## Kurulum ve Çalıştırma
+
+### Gereksinimler
+
+- Java JDK (Java Development Kit)
+- XAMPP (veya benzeri bir lokal sunucu)
+
+###Projeyi İndirme
+
+```bash
 git clone https://github.com/01YunusKaratas/PaticaAcademy.git
-XAMPP Kurulumu:
 
+XAMPP Kurulumu
 XAMPP kontrol panelini açın ve Apache ile MySQL servislerini başlatın.
-Veritabanı Kurulumu:
-
+Veritabanı Kurulumu
 XAMPP'in phpMyAdmin arayüzüne gidin.
 database_name adında bir veritabanı oluşturun.
 database_structure.sql dosyasını içe aktarın.
-Uygulama Kurulumu:
-
+Uygulama Kurulumu
 Proje klasörüne gidin ve IDE (Eclipse, IntelliJ IDEA, vs.) ile açın.
 src klasöründeki dosyaları derleyin ve çalıştırın.
 Kullanım
 Uygulamayı başlattıktan sonra kullanıcı arayüzü üzerinden veritabanlarına erişebilir, veri ekleyebilir, düzenleyebilir ve silebilirsiniz.
 
-->Katkıda Bulunanlar
+Katkıda Bulunanlar
 Yunus Emre Karataş
 
 
