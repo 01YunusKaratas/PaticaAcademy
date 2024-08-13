@@ -5,6 +5,7 @@ Bu proje, Patika.dev üzerindeki Orta Seviye Java ile Web Development patikasın
 Proje Açıklaması: Java Swing ile geliştirilmiş masaüstü uygulaması.
 Veritabanları: SQL ve NoSQL (MongoDB) entegrasyonu.
 Araçlar: XAMPP, Java Swing, Git, GitHub.
+
 Özellikler
 Swing Arayüzü: Kullanıcı dostu bir masaüstü arayüzü tasarlandı.
 Veritabanı Entegrasyonu: SQL ve MongoDB ile verilerin yönetimi.
@@ -14,8 +15,8 @@ Gereksinimler:
 
 Java JDK (Java Development Kit)
 XAMPP (veya benzeri bir lokal sunucu)
-Projeyi İndirme:
 
+Projeyi İndirme:
 bash
 Kodu kopyala
 git clone https://github.com/01YunusKaratas/PaticaAcademy.git
