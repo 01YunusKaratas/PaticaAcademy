@@ -40,8 +40,12 @@ Yunus Emre Karataş
 
 
 ![Ana Ekran](https://github.com/01YunusKaratas/PaticaAcademy/blob/main/JAVA102/Patika-Dev/src/com/patikadev/resources/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202024-08-13%20160643.png)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![Users Arayüzü](https://github.com/01YunusKaratas/PaticaAcademy/blob/main/JAVA102/Patika-Dev/src/com/patikadev/resources/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202024-08-13%20160711.png)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![Patika Arayüzü](https://github.com/01YunusKaratas/PaticaAcademy/blob/main/JAVA102/Patika-Dev/src/com/patikadev/resources/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202024-08-13%20160728.png)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![Course Arayüzü](https://github.com/01YunusKaratas/PaticaAcademy/blob/main/JAVA102/Patika-Dev/src/com/patikadev/resources/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202024-08-13%20160738.png)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
