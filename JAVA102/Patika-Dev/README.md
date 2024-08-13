@@ -30,7 +30,7 @@ Bu proje, Patika.dev üzerindeki Orta Seviye Java ile Web Development patikasın
 
 ###Projeyi İndirme
 
-```bash
+
 git clone https://github.com/01YunusKaratas/PaticaAcademy.git
 
 XAMPP Kurulumu
